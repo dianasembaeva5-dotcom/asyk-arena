@@ -12,7 +12,17 @@ I don't know electronics well, so the schematics, PCB layouts and factory files 
 *(I wrote this README text in Russian myself and translated it to English with AI.)*
 
 ## Full 3D assembly
-<!-- 3D-модели арены пока нет: добавь сюда скриншот, когда сделаешь её -->
+![Arena from above](hardware/3d/preview_iso.png)
+![Arena from below, main board visible](hardware/3d/preview_under.png)
+
+STEP file: [hardware/3d/asyk_arena_assembly.step](hardware/3d/asyk_arena_assembly.step)
+
+| Part | Details |
+|---|---|
+| Top plate | birch plywood 400×160×6 mm, 5 holes Ø28 mm every 70 mm for the nest boards |
+| Bottom plate | birch plywood 400×160×6 mm, a slot under each nest for the cable |
+| Main board | hangs under the bottom plate on 4× M3 brass standoffs 16 mm, Pico facing up |
+| Legs | 4× M3 standoffs 30 mm in the corners, also clamp the plates together |
 
 ## PCB
 **Nest board** (×5)
@@ -37,6 +47,7 @@ I don't know electronics well, so the schematics, PCB layouts and factory files 
 | Nest board (KiCad) | [hardware/nest](hardware/nest) |
 | Main board (KiCad) | [hardware/main-board](hardware/main-board) |
 | Gerbers, BOM, pick-and-place | `hardware/*/fab/` |
+| Arena 3D model (STEP) | [hardware/3d](hardware/3d) |
 | Firmware | [firmware](firmware) |
 
 ## Demo video (build submission)

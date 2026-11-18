@@ -13,7 +13,10 @@ LCSC shipping to Kazakhstan,1,20.00,20.00,https://www.lcsc.com,estimate
 Raspberry Pi Pico,1,4.00,4.00,https://www.raspberrypi.com/products/raspberry-pi-pico/,U1 on main board; buy from an approved reseller
 JST PH 2.0mm 6-pin cable (both ends) ~30cm,5,0.50,2.50,https://www.aliexpress.com/w/wholesale-jst-ph-2.0-6-pin-cable-double-head.html,one cable per nest; check pitch is 2.0mm (PH)
 Neodymium magnet 6x3mm,10,0.10,1.00,https://www.aliexpress.com/w/wholesale-neodymium-magnet-6x3mm.html,one inside each asyk + spares
-Plywood sheet ~50x30cm 6mm,1,5.00,5.00,,arena base; buy locally
+Birch plywood 6mm (top + bottom plate 400x160mm),2,3.00,6.00,,laser or jigsaw cut; buy locally
+M3 brass standoff 16mm,4,0.15,0.60,https://www.aliexpress.com/w/wholesale-m3-brass-standoff-16mm.html,mount the main board under the bottom plate
+M3 standoff 30mm (legs),4,0.20,0.80,https://www.aliexpress.com/w/wholesale-m3-standoff-30mm.html,corner legs that also clamp the plates
+M3 screws 8mm,16,0.03,0.48,https://www.aliexpress.com/w/wholesale-m3-screw-8mm.html,for standoffs and legs
 Soldering iron (basic),1,20.00,20.00,https://www.aliexpress.com/w/wholesale-soldering-iron-kit.html,I don't own one
 Solder wire + flux + tweezers,1,8.00,8.00,https://www.aliexpress.com/w/wholesale-solder-wire-flux.html,needed for 0603 and SOT-23 parts
 Asyks (knucklebones),6,0.00,0.00,,already own
