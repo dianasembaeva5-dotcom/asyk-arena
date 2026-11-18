@@ -1,1 +1,20 @@
 name,quantity,unit_price_usd,total_usd,link,notes
+Nest PCB (JLCPCB 2-layer HASL),5,0.40,2.00,https://jlcpcb.com,gerbers: hardware/nest/fab/asyk_nest_gerbers.zip; 5 pcs is the minimum order and exactly what the arena needs
+Main board PCB (JLCPCB 2-layer HASL),5,0.40,2.00,https://jlcpcb.com,gerbers: hardware/main-board/fab/asyk_main_gerbers.zip; need 1 (minimum order 5)
+PCB shipping to Kazakhstan (JLCPCB),1,15.00,15.00,https://jlcpcb.com,estimate; pick the cheapest option that arrives in time
+Hall sensor TI DRV5033FAQDBZR (SOT-23),5,0.25,1.25,https://www.lcsc.com/product-detail/C2869057.html,U1 on each nest; LCSC minimum 5
+LED WS2812B-B/W (5050),5,0.08,0.40,https://www.lcsc.com/product-detail/C114586.html,D1 on each nest; LCSC minimum 5
+JST PH 6-pin header B6B-PH-K-S(LF)(SN),10,0.04,0.40,https://www.lcsc.com/product-detail/C131342.html,5 on nests + 5 on main board
+Capacitor 100nF 0603,10,0.01,0.20,https://www.lcsc.com/product-detail/C14663.html,C1+C2 on each nest; LCSC sells in reels of 50+ (~$0.20)
+Resistor 10k 0603,5,0.01,0.10,https://www.lcsc.com/product-detail/C25804.html,R1 on each nest; LCSC sells 100+ (~$0.10)
+Resistor 330R 0603,1,0.01,0.10,https://www.lcsc.com/product-detail/C23138.html,R1 on main board (LED data line); LCSC sells 100+
+Capacitor 470uF 16V radial 8x11.5mm P3.5mm,1,0.30,0.30,https://www.lcsc.com/product-detail/C432444.html,C1 on main board
+LCSC shipping to Kazakhstan,1,20.00,20.00,https://www.lcsc.com,estimate
+Raspberry Pi Pico,1,4.00,4.00,https://www.raspberrypi.com/products/raspberry-pi-pico/,U1 on main board; buy from an approved reseller
+JST PH 2.0mm 6-pin cable (both ends) ~30cm,5,0.50,2.50,https://www.aliexpress.com/w/wholesale-jst-ph-2.0-6-pin-cable-double-head.html,one cable per nest; check pitch is 2.0mm (PH)
+Neodymium magnet 6x3mm,10,0.10,1.00,https://www.aliexpress.com/w/wholesale-neodymium-magnet-6x3mm.html,one inside each asyk + spares
+Plywood sheet ~50x30cm 6mm,1,5.00,5.00,,arena base; buy locally
+Soldering iron (basic),1,20.00,20.00,https://www.aliexpress.com/w/wholesale-soldering-iron-kit.html,I don't own one
+Solder wire + flux + tweezers,1,8.00,8.00,https://www.aliexpress.com/w/wholesale-solder-wire-flux.html,needed for 0603 and SOT-23 parts
+Asyks (knucklebones),6,0.00,0.00,,already own
+Micro-USB cable,1,0.00,0.00,,already own (powers the Pico)
