@@ -1,10 +1,15 @@
 # Asyk Arena
 
-<!-- Разделы, которые требует Fallen. Текст пиши своими словами. -->
-
-## What it is & how to use it
+## What it is & how to play
+Asyk Arena is an electronic version of the Kazakh game of asyks. You put asyks on 5 nests, flick the saqa and try to knock them down. Each asyk has a magnet inside, and there is a Hall sensor under each nest, so the arena sees by itself which asyks were knocked down, lights up the nests and counts the points.
 
 ## Why I made it
+I wanted to take a real Kazakh folk game and show it in a new way, through electronics. Many people know asyks, but few have seen the game count the points by itself.
+
+## How AI helped
+I don't know electronics well, so the schematics, PCB layouts and factory files in KiCad were made by AI (Claude). I decided what the arena should do and how complex the circuit should be, checked the result and learned from its files. The idea, the game rules and the arena plan are ours.
+
+*(I wrote this README text in Russian myself and translated it to English with AI.)*
 
 ## Full 3D assembly
 <!-- 3D-модели арены пока нет: добавь сюда скриншот, когда сделаешь её -->
