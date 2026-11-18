@@ -1,0 +1,16 @@
+# личные заметки, не для репозитория
+notes/
+# KiCad: временные файлы и бэкапы
+*-backups/
+*.kicad_prl.lck
+*.lck
+fp-info-cache
+_autosave-*
+.DS_Store
+learning/
+
+# служебное
+hardware/lib/
+_empty_backup/
+*.kicad_prl
+~*.lck

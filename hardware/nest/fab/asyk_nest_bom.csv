@@ -1,0 +1,6 @@
+"Reference","Value","Footprint","QUANTITY"
+"C1,C2","100nF","Capacitor_SMD:C_0603_1608Metric","2"
+"D1","WS2812B","LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm","1"
+"J1","Asyk_Nest_6pin","Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical","1"
+"R1","10k","Resistor_SMD:R_0603_1608Metric","1"
+"U1","DRV5033FAQDBZ","Package_TO_SOT_SMD:SOT-23","1"

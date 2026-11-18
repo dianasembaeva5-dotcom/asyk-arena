@@ -1,0 +1,9 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","470uF","CP_Radial_D8.0mm_P3.50mm",104.500000,-135.000000,90.000000,top
+"J1","Nest_1","JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical",110.000000,-144.000000,0.000000,top
+"J2","Nest_2","JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical",126.000000,-144.000000,0.000000,top
+"J3","Nest_3","JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical",142.000000,-144.000000,0.000000,top
+"J4","Nest_4","JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical",158.000000,-144.000000,0.000000,top
+"J5","Nest_5","JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical",174.000000,-144.000000,0.000000,top
+"R1","330","R_0603_1608Metric",116.000000,-134.000000,-90.000000,top
+"U1","RaspberryPi_Pico","RaspberryPi_Pico_Common_THT",193.000000,-106.220000,-90.000000,top
