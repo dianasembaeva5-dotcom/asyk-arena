@@ -1,21 +1,21 @@
 name,quantity,unit_price_usd,total_usd,link,notes
-Nest PCB (JLCPCB 2-layer HASL),5,0.40,2.00,https://jlcpcb.com,gerbers: hardware/nest/fab/asyk_nest_gerbers.zip; 5 pcs is the minimum order and exactly what the arena needs
+Nest PCB + factory assembly of SMD parts (JLCPCB Economic PCBA),5,4.00,20.00,https://jlcpcb.com,"gerbers: hardware/nest/fab/asyk_nest_gerbers.zip; assembly files: hardware/nest/fab/jlcpcb/ (BOM + CPL); estimate incl. setup and extended-part fees, check JLCPCB cart"
 Main board PCB (JLCPCB 2-layer HASL),5,0.40,2.00,https://jlcpcb.com,gerbers: hardware/main-board/fab/asyk_main_gerbers.zip; need 1 (minimum order 5)
 Combined shipping to Kazakhstan (JLCPCB PCBs + LCSC parts in one parcel),1,15.00,15.00,https://jlcpcb.com,estimate; LCSC parts are shipped together with the JLCPCB order so there is only one shipping fee
-Hall sensor TI DRV5033FAQDBZR (SOT-23),5,0.25,1.25,https://www.lcsc.com/product-detail/C2869057.html,U1 on each nest; LCSC minimum 5
-LED WS2812B-B/W (5050),5,0.08,0.40,https://www.lcsc.com/product-detail/C114586.html,D1 on each nest; LCSC minimum 5
+Hall sensor TI DRV5033FAQDBZR (SOT-23),5,0.25,1.25,https://www.lcsc.com/product-detail/C2869057.html,U1 on each nest; placed by JLCPCB assembly (price included in their quote)
+LED WS2812B-B/W (5050),5,0.08,0.40,https://www.lcsc.com/product-detail/C114586.html,D1 on each nest; placed by JLCPCB assembly
 JST PH 6-pin header B6B-PH-K-S(LF)(SN),10,0.04,0.40,https://www.lcsc.com/product-detail/C131342.html,5 on nests + 5 on main board
-Capacitor 100nF 0603,10,0.01,0.20,https://www.lcsc.com/product-detail/C14663.html,C1+C2 on each nest; LCSC sells in reels of 50+ (~$0.20)
-Resistor 10k 0603,5,0.01,0.10,https://www.lcsc.com/product-detail/C25804.html,R1 on each nest; LCSC sells 100+ (~$0.10)
+Capacitor 100nF 0603,10,0.01,0.10,https://www.lcsc.com/product-detail/C14663.html,C1+C2 on each nest; placed by JLCPCB assembly (basic part)
+Resistor 10k 0603,5,0.01,0.05,https://www.lcsc.com/product-detail/C25804.html,R1 on each nest; placed by JLCPCB assembly (basic part)
 Resistor 330R 0603,1,0.01,0.10,https://www.lcsc.com/product-detail/C23138.html,R1 on main board (LED data line); LCSC sells 100+
 Capacitor 470uF 16V radial 8x11.5mm P3.5mm,1,0.30,0.30,https://www.lcsc.com/product-detail/C432444.html,C1 on main board
-Raspberry Pi Pico,1,4.00,4.00,https://www.raspberrypi.com/products/raspberry-pi-pico/,U1 on main board; buy from an approved reseller
-JST PH 2.0mm 6-pin cable (both ends) ~30cm,5,0.50,2.50,https://www.aliexpress.com/w/wholesale-jst-ph-2.0-6-pin-cable-double-head.html,one cable per nest; check pitch is 2.0mm (PH)
-Neodymium magnet 6x3mm,10,0.10,1.00,https://www.aliexpress.com/w/wholesale-neodymium-magnet-6x3mm.html,one inside each asyk + spares
+Raspberry Pi Pico,1,3.50,3.50,https://kaspi.kz/shop/p/raspberry-pi-pico-102113147/,U1 on main board; Kaspi 1784 KZT; official Pico (not the Type-C clone)
+"JST PH 2.0mm 6-pin cable 30cm (both ends, set of 5)",1,2.40,2.40,https://ozon.kz/product/jst-ph-6-pin-2-0-mm-papa-papa-s-kabelem-30-sm-5-sht-6209141490/,Ozon 1223 KZT for 5; check both ends have the plug housing that fits the B6B-PH-K header
+Neodymium magnet disc 5x2mm (set of 44),1,1.22,1.22,https://kaspi.kz/shop/p/magnit-neodimovyi-rexant-44-sht-disk-5h2-mm-stseplenie-0-32-kg-106112904/,"Kaspi 620 KZT; one inside each asyk; ~9 mT at 8 mm, sensor switches at 3.5 mT"
 Birch plywood 6mm (top + bottom plate 400x160mm),2,3.00,6.00,,laser or jigsaw cut; buy locally
 M3 brass standoff 16mm,4,0.15,0.60,https://www.aliexpress.com/w/wholesale-m3-brass-standoff-16mm.html,mount the main board under the bottom plate
 M3 standoff 30mm (legs),4,0.20,0.80,https://www.aliexpress.com/w/wholesale-m3-standoff-30mm.html,corner legs that also clamp the plates
 M3 screws 8mm,16,0.03,0.48,https://www.aliexpress.com/w/wholesale-m3-screw-8mm.html,for standoffs and legs
-Soldering kit (iron + solder + flux + tweezers),1,15.00,15.00,https://www.aliexpress.com/w/wholesale-soldering-iron-kit-with-solder-tweezers.html,one cheap kit instead of separate items; I don't own a soldering iron
+Soldering iron with temperature control + solder,1,10.00,10.00,https://kaspi.kz/shop/p/masterdom-pajal-nik-819272430-144971809/,"only through-hole parts left to solder (JST headers, Pico, 470uF); check temperature control before buying"
 Asyks (knucklebones),6,0.00,0.00,,already own
 Micro-USB cable,1,0.00,0.00,,already own (powers the Pico)
